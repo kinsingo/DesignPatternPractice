@@ -1,0 +1,7 @@
+E:\DesignPatternExercise\DesignPatternExercise\obj\Debug\DesignPatternExercise.csprojAssemblyReference.cache
+E:\DesignPatternExercise\DesignPatternExercise\obj\Debug\DesignPatternExercise.csproj.CoreCompileInputs.cache
+E:\DesignPatternExercise\DesignPatternExercise\bin\Debug\DesignPatternExercise.exe.config
+E:\DesignPatternExercise\DesignPatternExercise\bin\Debug\DesignPatternExercise.exe
+E:\DesignPatternExercise\DesignPatternExercise\bin\Debug\DesignPatternExercise.pdb
+E:\DesignPatternExercise\DesignPatternExercise\obj\Debug\DesignPatternExercise.exe
+E:\DesignPatternExercise\DesignPatternExercise\obj\Debug\DesignPatternExercise.pdb

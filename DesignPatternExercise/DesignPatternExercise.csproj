@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A57F9588-EE82-40AF-90D5-8F98AADA1472}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DesignPatternExercise</RootNamespace>
+    <AssemblyName>DesignPatternExercise</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BehavioralPattern\Command.cs" />
+    <Compile Include="BehavioralPattern\State.cs" />
+    <Compile Include="BehavioralPattern\Starategy.cs" />
+    <Compile Include="BehavioralPattern\H.cs" />
+    <Compile Include="BehavioralPattern\Visitor.cs" />
+    <Compile Include="BehavioralPattern\J.cs" />
+    <Compile Include="BehavioralPattern\K.cs" />
+    <Compile Include="BehavioralPattern\Mediator.cs" />
+    <Compile Include="BehavioralPattern\Iterator.cs" />
+    <Compile Include="BehavioralPattern\ChainOfResponsibility.cs" />
+    <Compile Include="BehavioralPattern\Memento.cs" />
+    <Compile Include="BehavioralPattern\Observer.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory.cs" />
+    <Compile Include="CreationalPattern\Builder.cs" />
+    <Compile Include="CreationalPattern\FactoryMethod.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuralPattern\CarFlyweight.cs" />
+    <Compile Include="StructuralPattern\Composite.cs" />
+    <Compile Include="StructuralPattern\ProtoType.cs" />
+    <Compile Include="StructuralPattern\Proxy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
